@@ -1,0 +1,42 @@
+[2026/05/13 08:11:38.011630,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/13 08:11:38.016466,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/13 08:16:14.750478,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/13 08:16:14.753049,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/13 08:18:26.332822,  1] source3/smbd/smb2_service.c:337(create_connection_session_info)
+  create_connection_session_info: user 'member' (from session setup) not permitted to access this share (sourcecode)
+[2026/05/13 08:18:26.332877,  1] source3/smbd/smb2_service.c:520(make_connection_snum)
+  make_connection_snum: create_connection_session_info failed: NT_STATUS_ACCESS_DENIED
+[2026/05/13 08:22:39.772778,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/13 08:22:39.776717,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/13 08:23:59.055865,  1] source3/smbd/smb2_service.c:337(create_connection_session_info)
+  create_connection_session_info: user 'member' (from session setup) not permitted to access this share (sourcecode)
+[2026/05/13 08:23:59.055946,  1] source3/smbd/smb2_service.c:520(make_connection_snum)
+  make_connection_snum: create_connection_session_info failed: NT_STATUS_ACCESS_DENIED
+[2026/05/13 08:25:51.385382,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/13 08:25:51.391059,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/13 08:36:38.241572,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/13 08:36:38.245491,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/13 08:38:37.780000,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/13 08:38:37.782690,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/13 08:40:10.002483,  1] source3/smbd/smb2_service.c:337(create_connection_session_info)
+  create_connection_session_info: user 'member' (from session setup) not permitted to access this share (sourcecode)
+[2026/05/13 08:40:10.002574,  1] source3/smbd/smb2_service.c:520(make_connection_snum)
+  make_connection_snum: create_connection_session_info failed: NT_STATUS_ACCESS_DENIED

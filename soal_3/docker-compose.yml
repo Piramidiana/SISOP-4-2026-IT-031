@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  libraryit-server:
+    build: .
+    container_name: libraryit-server
+    ports:
+      - "4455:445"
+      - "1399:139"
+    volumes:
+      - ./data/ebooks:/libraryit/ebooks
+      - ./data/papers:/libraryit/papers
+      - ./data/sourcecode:/libraryit/sourcecode
+      - ./data/docs:/libraryit/docs
+      - ./logs:/logs
+    restart: unless-stopped
+
+  libraryit-logger:
+    image: ubuntu:latest
+    container_name: libraryit-logger
+    depends_on:
+      - libraryit-server
+    volumes:
+      - ./logs:/logs
+    command: tail -f /logs/libraryit.log
+    restart: unless-stopped
