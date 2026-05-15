@@ -19,7 +19,7 @@ static void build_tujuan(char *out, size_t *out_len) {
     char result[4096] = "Tujuan Mas Amba: ";
     int first = 1;
     for (int i = 1; i <= 7; i++) {
-        char filepath[2048];
+        char filepath[4096];
         sprintf(filepath, "%s/%d.txt", source_dir, i);
         FILE *fp = fopen(filepath, "r");
         if (!fp) continue;

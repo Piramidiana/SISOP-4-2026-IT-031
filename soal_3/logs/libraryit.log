@@ -40,3 +40,30 @@
   create_connection_session_info: user 'member' (from session setup) not permitted to access this share (sourcecode)
 [2026/05/13 08:40:10.002574,  1] source3/smbd/smb2_service.c:520(make_connection_snum)
   make_connection_snum: create_connection_session_info failed: NT_STATUS_ACCESS_DENIED
+[2026/05/15 02:54:42.437886,  0] source3/smbd/server.c:2119(main)
+  smbd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/15 02:54:42.443674,  1] source3/profile/profile.c:53(set_profile_level)
+  INFO: Profiling turned OFF from pid 1
+[2026/05/15 03:03:23.826889,  0] source3/rpc_server/rpc_host.c:2889(main)
+  samba-dcerpcd version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/15 03:03:23.912168,  1] source3/rpc_server/rpc_host.c:1806(rpc_worker_exited)
+  rpc_worker_exited: No worker with PID 100
+[2026/05/15 03:03:23.968710,  0] source3/rpc_server/rpc_worker.c:1148(rpc_worker_main)
+  rpcd_classic version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/15 03:03:24.017718,  0] source3/rpc_server/rpc_worker.c:1148(rpc_worker_main)
+  rpcd_winreg version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/15 03:03:24.277111,  1] source3/printing/printer_list.c:244(printer_list_get_last_refresh)
+  Failed to fetch record!
+[2026/05/15 03:03:24.277151,  1] source3/smbd/server_reload.c:73(delete_and_reload_printers)
+  pcap cache not loaded
+[2026/05/15 03:03:24.304418,  0] source3/rpc_server/rpc_worker.c:1148(rpc_worker_main)
+  rpcd_winreg version 4.23.6-Ubuntu-4.23.6+dfsg-1ubuntu2 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2025
+[2026/05/15 03:03:40.689789,  1] source3/smbd/smb2_service.c:337(create_connection_session_info)
+  create_connection_session_info: user 'member' (from session setup) not permitted to access this share (sourcecode)
+[2026/05/15 03:03:40.689841,  1] source3/smbd/smb2_service.c:520(make_connection_snum)
+  make_connection_snum: create_connection_session_info failed: NT_STATUS_ACCESS_DENIED
