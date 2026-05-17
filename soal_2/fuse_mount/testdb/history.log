@@ -1,0 +1,6 @@
+[1778658584] CREATE TABLE testdb users name password
+
+[1778658898] INSERT testdb users admin password123
+
+[1778658914] INSERT testdb users admin password123
+
